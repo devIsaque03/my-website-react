@@ -22,7 +22,7 @@ function App() {
         <Link to="/tasks">Tasks</Link>
         <Link to="/timeline">Timeline</Link>
       </div>
-      
+
       <Container customClass="min-height">
         <Routes>
           <Route path="/" element={<Login />} />
